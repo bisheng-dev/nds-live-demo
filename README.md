@@ -6,7 +6,7 @@ NDS.Live data channel demo
 - Convert TomTom Maps data to NDS.Live format
 - Automated processing with AWS S3 and Lambda
   
-flowchart LR
+##flowchart LR
     A[TomTom sample data] -->|tomtom_to_nds| B[NDS.Live tranformation]
     B -->|Zserio binary| C[S3 Bucket]
     C -->|Lambda trigger| D[vehicle simulator]
